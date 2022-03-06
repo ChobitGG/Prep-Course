@@ -157,11 +157,11 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if(numero==0)
-   console.log(false);
+   return false;
   if(numero>0)
-   console.log("Es positivo");
+   return "Es positivo"
   if(numero<0)
-   console.log("Es negativo");
+   return "Es negativo"
 }
 
 function agregarSimboloExclamacion(str) {
@@ -222,9 +222,9 @@ function esVocal(letra){
   //Escribe tu código aquí
   if(letra.length>1)
    return "Dato incorrecto";
-  if(letra==="a" || letra ==="e"|| letra ==="i"|| letra ==="o"|| letra ==="u");
-   return "es vocal";
-  return "no es vocal";
+  if(letra==="a" || letra ==="e"|| letra ==="i"|| letra ==="o"|| letra ==="u")
+  return "Es vocal";
+  return "Dato incorrecto";
 }
 
 
